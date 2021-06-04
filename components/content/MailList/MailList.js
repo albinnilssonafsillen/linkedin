@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react'
 import Button from '../../UI/Button/Button'
-import Input from '../../UI/Input/Input'
 
 function MailList() {
 
@@ -31,9 +30,9 @@ function MailList() {
             return;
         }
 
-        alert(`Du har gjort ett aktivt val att bli en bättre människa. Bra jobbat ♥ ♥ ♥`)
+        alert(`Du har gjort ett aktivt val att bli en bättre människa. Bra jobbat ♥ ♥ ♥`);
         inputMail.current.value = '';
-        setMessage(`Success ♥ ♥ ♥`)
+        setMessage(`Success ♥ ♥ ♥`);
     };
 
     return (

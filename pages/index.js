@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-        <title>LinkedIn4ever</title>
+        <title>♥ ♥ ♥ ♥</title>
       </Head>
       <MailList />
       <Post />
