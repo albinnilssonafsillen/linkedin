@@ -32,7 +32,6 @@ function MailList() {
 
         alert(`Du har gjort ett aktivt val att bli en bättre människa. Bra jobbat ♥ ♥ ♥`);
         inputMail.current.value = '';
-        mail = false;
         setMessage(`Success ♥ ♥ ♥`);
     };
 
