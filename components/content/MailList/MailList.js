@@ -46,7 +46,7 @@ function MailList() {
             <p>För att säkerställa att jag inte blir en liknande person blir jag påmind en gång i halvåret om detta. Om du, käre besökare önskar bli påmind, Vänligen ange mail nedan:</p>
             <div className="sendMail">
                 <form onSubmit={addSubscription}>
-                    <input className="txtInput" ref={inputMail} required id="mail" onChange={e => setValidMail(e.target.value)} type="email" placeHolder="LinkedIn@spray.se" ></input>
+                    <input className="txtInput" ref={inputMail} required id="mail" onChange={e => setValidMail(e.target.value)} type="email" placeHolder="YourAwesomeMail@spray.se" ></input>
                     <Button disabled={!mail} text="Påminn mig"  />
                 </form>
             </div>
