@@ -32,6 +32,7 @@ function MailList() {
 
         alert(`Du har gjort ett aktivt val att bli en bättre människa. Bra jobbat ♥ ♥ ♥`);
         inputMail.current.value = '';
+        mail = false;
         setMessage(`Success ♥ ♥ ♥`);
     };
 
@@ -46,7 +47,7 @@ function MailList() {
             <p>För att säkerställa att jag inte blir en liknande person blir jag påmind en gång i halvåret om detta. Om du, käre besökare önskar bli påmind, Vänligen ange mail nedan:</p>
             <div className="sendMail">
                 <form onSubmit={addSubscription}>
-                    <input className="txtInput" ref={inputMail} required id="mail" onChange={e => setValidMail(e.target.value)} type="email" placeHolder="YourAwesomeMail@spray.se" ></input>
+                    <input className="txtInput" ref={inputMail} required id="mail" onChange={e => setValidMail(e.target.value)} type="email" placeHolder="rutavdrag@spray.se" ></input>
                     <Button disabled={!mail} text="Påminn mig"  />
                 </form>
             </div>
